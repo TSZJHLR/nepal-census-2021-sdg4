@@ -84,20 +84,12 @@ def update_dashboard(clickData, selected_metric, n_clicks, current_view):
 
     fig_map.update_layout(
         map=dict(
-<<<<<<< HEAD
             style="white-bg", 
-=======
-            style="white-bg",
->>>>>>> 41fa1e6 (commit lost)
             center={"lat": 28.3, "lon": 84.1}, 
             zoom=6
         ),
         margin={"r":0,"t":0,"l":0,"b":0},
-<<<<<<< HEAD
         paper_bgcolor='rgba(0,0,0,0)', 
-=======
-        paper_bgcolor='rgba(0,0,0,0)',
->>>>>>> 41fa1e6 (commit lost)
     )
 
     table = dash_table.DataTable(
